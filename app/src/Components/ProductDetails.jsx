@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { FaStar, FaRegStar, FaStarHalfAlt } from "react-icons/fa";
 import { useCartStore } from "./cartStore"; // تأكد من مسار الاستيراد الصحيح
-
+const BASE_URL = import.meta.env.VITE_BACKEND_URL;
 // StarRating Component: for displaying stars (read-only)
 const StarRating = ({ rating }) => {
   const stars = [];
