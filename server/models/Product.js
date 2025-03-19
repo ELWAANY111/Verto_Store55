@@ -21,7 +21,7 @@ const productSchema = new mongoose.Schema({
   rating: { type: Number, default: 0 },
 });
 
-// دالة لتحديث التقييم العام بناءً على التقييمات
+// 🔹 دالة لتحديث التقييم العام بناءً على التقييمات
 productSchema.methods.updateRating = function () {
   if (this.reviews.length === 0) {
     this.rating = 0;
