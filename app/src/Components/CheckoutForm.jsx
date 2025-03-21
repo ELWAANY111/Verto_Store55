@@ -58,7 +58,7 @@ const CheckoutForm = ({ onClose }) => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 p-4">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md overflow-auto" style={{ maxHeight: "90vh" }}>
+      <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md mt-300px overflow-auto" style={{ maxHeight: "90vh" }}>
         <h2 className="text-xl font-bold text-center mb-6">📦 تفاصيل الشحن</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           
