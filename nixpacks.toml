@@ -14,4 +14,3 @@ cmds = [
 
 [start]
 cmd = "cd server && npm start"
-git 
