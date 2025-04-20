@@ -3,8 +3,7 @@ nixPkgs = ["nodejs", "coreutils"]
 
 [phases.install]
 cmds = [
-  "cd server && npm install",
-  "cd ../app && npm install && npm run build"
+  "cd server && npm install"
 ]
 
 [phases.build]
