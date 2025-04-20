@@ -1,4 +1,10 @@
 {
+  "name": "verto-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "axios": "^1.8.1",
     "cookie-parser": "^1.4.7",
